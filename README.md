@@ -25,4 +25,4 @@ To generate coinlist.csv, please run 'coin_name.py'. This pulls the names direct
 
 Please note that running coin_name.py will OVERWRITE the old coinlist.csv. Create a copy of coinlist.csv if you do not want to lose the information. The easiest way to update coinlist.csv is to copy/paste it (coinlist -Copy.csv), run coin_name.py with the new coins, open coinlist.csv, copy the new coin information and paste at the end of the old coins in coinlist -Copy.csv. Then delete coinlist.csv, and rename coinlist -Copy.csv to coinlist.csv.
 
-coin_name.py will look for coins that match either the symbol or the name of the coin. Although the program will list all the matching coins, it only stores the last coin. For common coin symbols, use the name instead of the symbol. Worst case, you can try 
+coin_name.py will look for coins that match either the symbol or the name of the coin. Although the program will list all the matching coins, it only stores the last coin. For common coin symbols, use the name instead of the symbol. 
